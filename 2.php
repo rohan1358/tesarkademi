@@ -1,5 +1,5 @@
 <?php 
-$username = "sss_s";
+$username = "sss_syyyyyyyyyyyyyyyyyyy";
 echo  username($username);
 echo "<br/>";
 function username($username){
@@ -17,7 +17,7 @@ function username($username){
 		echo "usernme harus menggunakan underscorse";
 	}elseif (strlen($username) < 5) {
 		echo "username anda tidak boleh kurang dari 5 karakter";
-	}elseif ($username === 12) {
+	}elseif (strlen($username) > 12) {
 		echo "maksimal 12 karakter";
 	}
 	else {
